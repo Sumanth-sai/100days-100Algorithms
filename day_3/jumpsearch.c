@@ -40,3 +40,6 @@ int jumpSearch(int arr[], int size, int key, int step)
     }
     return -1;                  //returns -1 if the element is not present
 }
+
+//The best case time complexity for jump search is O(sqrt(n))
+//The worst case time complexity is between O(n) and O(log(n)) i.e., between linear search and binary search
